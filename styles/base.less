@@ -59,10 +59,10 @@ atom-text-editor {
 }
 
 .syntax--keyword {
-  color: @cyan;
+  color: @red;
 
   &.syntax--control {
-    color: @cyan;
+    color: @red;
   }
 
   &.syntax--operator {
@@ -103,7 +103,7 @@ atom-text-editor {
 }
 
 .syntax--variable {
-  color: @red;
+  color: @syntax-text-color;
 
   &.syntax--interpolation {
     color: darken(@red, 10%);
@@ -111,6 +111,10 @@ atom-text-editor {
 
   &.syntax--parameter.syntax--function {
     color: @orange;
+  }
+
+  &.syntax--language {
+    color: @red;
   }
 }
 
