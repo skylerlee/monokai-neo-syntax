@@ -61,12 +61,9 @@ atom-text-editor {
 .syntax--keyword {
   color: @red;
 
-  &.syntax--control {
-    color: @red;
-  }
-
+  &.syntax--control,
   &.syntax--operator {
-    color: @syntax-text-color;
+    color: @red;
   }
 
   &.syntax--other.syntax--special-method {
@@ -203,7 +200,6 @@ atom-text-editor {
   }
   &.syntax--other.syntax--inherited-class {
     color: @green;
-    font-style: italic;
   }
 
   &.syntax--name.syntax--section {
