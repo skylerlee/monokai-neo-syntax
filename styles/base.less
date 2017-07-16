@@ -172,16 +172,14 @@ atom-text-editor {
 }
 
 .syntax--support {
+  &.syntax--variable,
+  &.syntax--function,
   &.syntax--class {
-    color: @green;
+    color: @cyan;
   }
 
-  &.syntax--function  {
-    color: @cyan;
-
-    &.syntax--any-method {
-      color: @blue;
-    }
+  &.syntax--function.syntax--any-method {
+    color: @blue;
   }
 }
 
