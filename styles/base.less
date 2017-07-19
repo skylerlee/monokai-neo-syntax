@@ -76,10 +76,10 @@ atom-text-editor {
 }
 
 .syntax--storage {
-  color: @cyan;
+  color: @red;
 
-  &.syntax--modifier {
-    color: @red;
+  &.syntax--type {
+    color: @cyan;
   }
 }
 
@@ -170,8 +170,12 @@ atom-text-editor {
     }
   }
 
-  &.syntax--section.syntax--embedded {
-    color: darken(@red, 10%);
+  &.syntax--section {
+    color: @syntax-text-color;
+
+    &.syntax--embedded {
+      color: darken(@red, 10%);
+    }
   }
 }
 
@@ -218,6 +222,10 @@ atom-text-editor {
 .syntax--meta {
   &.syntax--class {
     color: @green;
+
+    &.syntax--body {
+      color: @syntax-text-color;
+    }
   }
 
   &.syntax--link {
