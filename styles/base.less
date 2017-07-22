@@ -179,8 +179,8 @@ atom-text-editor {
 
 .syntax--support {
   &.syntax--function,
-  &.syntax--type,
-  &.syntax--class {
+  &.syntax--class,
+  &.syntax--type {
     color: @cyan;
   }
 
@@ -191,13 +191,12 @@ atom-text-editor {
 
 .syntax--entity {
   &.syntax--name.syntax--function,
+  &.syntax--name.syntax--class,
   &.syntax--name.syntax--type {
     color: @green;
   }
 
-  &.syntax--name.syntax--class,
-  &.syntax--name.syntax--type.syntax--class {
-    color: @green;
+  &.syntax--name.syntax--class {
     text-decoration: underline;
   }
   &.syntax--other.syntax--inherited-class {
