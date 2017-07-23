@@ -1,0 +1,26 @@
+.syntax--source.syntax--json {
+  .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+    & > .syntax--string.syntax--quoted.syntax--json {
+      color: @cyan;
+
+      & > .syntax--punctuation.syntax--string {
+        color: @cyan;
+      }
+    }
+  }
+
+  .syntax--meta.syntax--structure.syntax--dictionary.syntax--json,
+  .syntax--meta.syntax--structure.syntax--array.syntax--json {
+    & > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json {
+      color: @yellow;
+
+      & > .syntax--punctuation {
+        color: @yellow;
+      }
+    }
+
+    & > .syntax--constant.syntax--language.syntax--json {
+      color: @purple;
+    }
+  }
+}
