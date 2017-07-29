@@ -197,17 +197,13 @@
     font-weight: bold;
   }
 
-  &.syntax--changed {
-    color: @purple;
-  }
-
-  &.syntax--deleted {
-    color: @red;
-  }
-
   &.syntax--italic {
     color: @purple;
     font-style: italic;
+  }
+
+  &.syntax--strike {
+    text-decoration: line-through;
   }
 
   &.syntax--underline {
@@ -220,6 +216,14 @@
 
   &.syntax--inserted {
     color: @green;
+  }
+
+  &.syntax--changed {
+    color: @purple;
+  }
+
+  &.syntax--deleted {
+    color: @red;
   }
 
   &.syntax--list {
