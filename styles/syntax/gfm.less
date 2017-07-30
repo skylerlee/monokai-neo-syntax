@@ -7,17 +7,19 @@
       font-weight: bold;
     }
 
-    &.syntax--link {
-      color: @yellow;
-    }
-
     &.syntax--raw {
       background-color: @dark-gray;
     }
   }
 
-  .syntax--link .syntax--entity {
-    color: @cyan;
+  .syntax--link {
+    .syntax--entity {
+      color: @cyan;
+    }
+
+    .syntax--link {
+      color: @yellow;
+    }
   }
 
   .syntax--quote {
