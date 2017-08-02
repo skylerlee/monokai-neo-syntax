@@ -56,12 +56,12 @@
 .syntax--string {
   color: @yellow;
 
-  &.syntax--regexp {
-    color: @orange;
-  }
-
   &.syntax--other.syntax--link {
     color: @red;
+  }
+
+  &.syntax--regexp {
+    color: @orange;
   }
 
   .syntax--source {
@@ -101,12 +101,8 @@
     }
   }
 
-  &.syntax--section {
-    color: @syntax-text-color;
-
-    &.syntax--embedded {
-      color: @red;
-    }
+  &.syntax--section.syntax--embedded {
+    color: @red;
   }
 }
 
