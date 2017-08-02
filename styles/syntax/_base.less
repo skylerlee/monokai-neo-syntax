@@ -6,15 +6,6 @@
 
 .syntax--keyword {
   color: @red;
-
-  &.syntax--control,
-  &.syntax--operator {
-    color: @red;
-  }
-
-  &.syntax--other.syntax--unit {
-    color: @red;
-  }
 }
 
 .syntax--storage {
@@ -135,15 +126,14 @@
 .syntax--entity {
   &.syntax--name.syntax--function,
   &.syntax--name.syntax--class,
-  &.syntax--name.syntax--type {
+  &.syntax--name.syntax--type,
+  &.syntax--other.syntax--attribute-name,
+  &.syntax--other.syntax--inherited-class {
     color: @green;
   }
 
-  &.syntax--name.syntax--class {
-    text-decoration: underline;
-  }
+  &.syntax--name.syntax--class,
   &.syntax--other.syntax--inherited-class {
-    color: @green;
     text-decoration: underline;
   }
 
@@ -153,10 +143,6 @@
 
   &.syntax--name.syntax--tag {
     color: @red;
-  }
-
-  &.syntax--other.syntax--attribute-name {
-    color: @green;
   }
 }
 
