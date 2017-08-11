@@ -5,7 +5,9 @@
   "description": "A brighter monokai theme variant for Atom",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "bright",
+    "monokai"
   ],
   "repository": "https://github.com/skylerlee/monokai-neo-syntax",
   "license": "MIT",
