@@ -2,4 +2,4 @@
 
 A brighter monokai theme variant for Atom.
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+![monokai-neo-syntax theme](https://user-images.githubusercontent.com/6789491/29224680-f14bd1ea-7efd-11e7-8977-dd5939a0e2bd.png)
