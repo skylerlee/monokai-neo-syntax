@@ -1,4 +1,4 @@
-# monokai-neo-syntax theme
+# ![monokai-neo-syntax theme](https://user-images.githubusercontent.com/6789491/29249264-d1aa8356-805e-11e7-942e-66db18c23b4d.png)
 
 A brighter monokai theme variant for Atom.
 
