@@ -8,5 +8,10 @@ A brighter monokai theme variant for Atom.
 
 > The font used in the screenshot is [Fira Mono](https://github.com/mozilla/Fira).
 
+### Installation
+```
+apm install monokai-neo-syntax
+```
+
 ### License
 The MIT License.
