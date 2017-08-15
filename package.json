@@ -4,10 +4,10 @@
   "version": "1.2.0",
   "description": "A brighter monokai theme variant for Atom",
   "keywords": [
-    "syntax",
-    "theme",
+    "monokai",
     "bright",
-    "monokai"
+    "syntax",
+    "theme"
   ],
   "repository": "https://github.com/skylerlee/monokai-neo-syntax",
   "license": "MIT",
