@@ -50,6 +50,16 @@ atom-text-editor {
     background-color: @syntax-selection-color;
   }
 
+  .find-result .region {
+    background-color: @syntax-result-marker-color;
+    border: 2px solid transparent;
+  }
+
+  .current-result .region {
+    background-color: @syntax-result-marker-color-selected;
+    border: 2px solid @blue;
+  }
+
   .bracket-matcher .region {
     border-bottom: 1px solid @syntax-cursor-color;
     box-sizing: border-box;
