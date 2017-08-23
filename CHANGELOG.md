@@ -1,3 +1,6 @@
+## 1.2.2 - (2017-08-23)
+* Tweaked find-and-replace marker
+
 ## 1.2.1 - (2017-08-15)
 * Tweaked green color
 * Updated README
