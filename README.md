@@ -1,6 +1,8 @@
 # ![monokai-neo-syntax theme](https://user-images.githubusercontent.com/6789491/29249264-d1aa8356-805e-11e7-942e-66db18c23b4d.png)
 
 [![Build Status](https://travis-ci.org/skylerlee/monokai-neo-syntax.svg?branch=master)](https://travis-ci.org/skylerlee/monokai-neo-syntax)
+[![APM Downloads](https://img.shields.io/apm/dm/monokai-neo-syntax.svg)](https://github.com/skylerlee/monokai-neo-syntax/releases)
+[![Latest Version](https://img.shields.io/apm/v/monokai-neo-syntax.svg)](https://github.com/skylerlee/monokai-neo-syntax/releases)
 
 A brighter monokai theme variant for Atom.
 
