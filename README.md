@@ -10,6 +10,10 @@ A brighter monokai theme variant for Atom.
 
 > The font used in the screenshot is [Fira Mono](https://github.com/mozilla/Fira).
 
+### Palette
+
+![monokai-neo-palette](https://user-images.githubusercontent.com/6789491/32142876-52888b54-bcdb-11e7-9b0e-9d2bd2ed2b61.png)
+
 ### Installation
 
 ```
