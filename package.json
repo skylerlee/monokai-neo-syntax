@@ -1,7 +1,7 @@
 {
   "name": "monokai-neo-syntax",
   "theme": "syntax",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "A brighter monokai theme variant for Atom",
   "keywords": [
     "monokai",
