@@ -37,6 +37,10 @@ atom-text-editor {
   .fold-marker:after {
     color: @light-gray;
   }
+  
+  .cursor-line {
+    background-color: fade(@syntax-gutter-background-color-selected, 50%);
+  }
 
   .invisible {
     color: @syntax-text-color;
@@ -63,6 +67,10 @@ atom-text-editor {
   .bracket-matcher .region {
     border-bottom: 1px solid @syntax-cursor-color;
     box-sizing: border-box;
+  }
+  
+  .atom-typescript-occurrence .region {
+    background-color: fade(@syntax-selection-color, 50%);
   }
 }
 
