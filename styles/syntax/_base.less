@@ -2,6 +2,7 @@
 
 .syntax--comment {
   color: @light-gray;
+  font-style: italic;
 }
 
 .syntax--keyword {
@@ -18,6 +19,7 @@
 
   &.syntax--type {
     color: @cyan;
+    font-style: italic;
   }
 }
 
@@ -43,6 +45,7 @@
 
   &.syntax--parameter {
     color: @orange;
+    font-style: italic;
   }
 
   &.syntax--language {
@@ -116,6 +119,10 @@
     color: @cyan;
   }
 
+  &.syntax--type {
+    font-style: italic;
+  }
+
   &.syntax--function.syntax--any-method {
     color: @blue;
   }
@@ -128,6 +135,15 @@
   &.syntax--other.syntax--attribute-name,
   &.syntax--other.syntax--inherited-class {
     color: @green;
+  }
+
+  &.syntax--name.syntax--type,
+  &.syntax--other.syntax--inherited-class {
+    border-bottom: 1px solid @green;
+  }
+
+  &.syntax--other.syntax--inherited-class {
+    font-style: italic;
   }
 
   &.syntax--name.syntax--section {
@@ -153,12 +169,15 @@
   }
 
   &.syntax--separator {
-    background-color: @gray;
-    color: @syntax-text-color;
+    color: @red;
   }
 
   &.syntax--tag {
     color: @syntax-text-color;
+  }
+
+  &.syntax--definition.syntax--function {
+    color:  @green;
   }
 }
 
